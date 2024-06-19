@@ -12,7 +12,7 @@ jobs:
       - name: Download artifact - libgbinder
         uses: dawidd6/action-download-artifact@v2
         with:
-          repo: clearfraction/libgbinder
+          repo: clearfraction/libglibutil
           workflow: build-core.yml
           check_artifacts: true       
       - name: Building a package
